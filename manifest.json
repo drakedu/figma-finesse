@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Figma Finesse",
-  "description": "Figma Finesse is a Google Chrome extension that allows you to enjoy throughout the year a rainbow-colored progress bar for file loading in Figma. The source code for Figma Finesse is at https://github.com/drakedu/figma-finesse.",
+  "description": "Figma Finesse is a Google Chrome extension that allows you to enjoy year round a prismatic progress bar for file loading in Figma.",
   "version": "1.0",
   "permissions": ["activeTab"],
   "author": "Drake Du",

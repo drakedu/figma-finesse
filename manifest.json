@@ -3,7 +3,6 @@
   "name": "Figma Finesse",
   "description": "Figma Finesse is a Google Chrome extension that allows you to enjoy year round a prismatic progress bar for file loading in Figma.",
   "version": "1.0",
-  "permissions": ["activeTab"],
   "author": "Drake Du",
   "content_scripts": [
     {

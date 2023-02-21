@@ -1,19 +1,4 @@
-[class*="progress_bar--progressBarWhiteboard"] {
-    background: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff) !important;
-}
-
-[class*="progress_bar--progressBarDesign"] {
-    background: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff) !important;
-}
-
-[class*="progress_bar--progressBarViewer"] {
-    background: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff) !important;
-}
-
-[class*="progress_bar--progressbarMobileViewer"] {
-    background: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff) !important;
-}
-
-[class*="progress_bar--progressBarShimmer"] {
-    background: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff) !important;
+:where([class*="progress_bar--progressBarWhiteboard"], [class*="progress_bar--progressBarDesign"], [class*="progress_bar--progressBarViewer"], [class*="progress_bar--progressbarMobileViewer"], [class*="progress_bar--progressBarShimmer"]) {
+    --prismatic: linear-gradient(to right, #000000, #926e64, #ffb6e6, #a3deff, #ffffff, #ff0000, #ffe462, #0acf83, #1abcfe, #a259ff);
+    background: var(--prismatic);
 }

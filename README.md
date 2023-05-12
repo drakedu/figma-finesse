@@ -1,4 +1,4 @@
-# Figma Finesse
+# Figma Finesse — Finesse Your File Loading in Figma
 
 Figma Finesse is a Google Chrome extension for year-round enjoyment of a prismatic progress bar for file loading in Figma. I developed Figma Finesse after discovering [Figma Anti-LGBT](https://web.archive.org/web/20220623194800/https://github.com/VityaSchel/figma-anti-lgbt) on the Chrome Web Store. You can get started below!
 
